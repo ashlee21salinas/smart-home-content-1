@@ -6,7 +6,7 @@ header {
 
 .big-img {
 background-image: url("Images/modernhouse.png");
-min-height: 600px;
+min-height: 700px;
 height: 100%;
 background-position: center;
 background-repeat: no-repeat;
@@ -62,4 +62,8 @@ margin: 0;
 #main-image {
     width: 100%;
     margin: 0;
+}
+
+.img-1 {
+    background-color: #687692;
 }
