@@ -1,3 +1,51 @@
+
+/****************** Home Page ******************/
+header {
+    background-color: black;
+}
+
+.big-img {
+background-image: url("Images/modernhouse.png");
+min-height: 600px;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box-1 {
+    /* border: 2px solid red; */
+} 
+.home-title {
+    /* border: 2px solid red; */
+}
+
+nav {
+    /* border: 2px solid red; */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #455559;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 36px;
+}
+
 body {
     background-color: #CCD8DF;
 }
@@ -6,3 +54,12 @@ h1 {
    font-size: 58px;
 }
 
+#logo {
+height: 100px;
+margin: 0;
+}
+
+#main-image {
+    width: 100%;
+    margin: 0;
+}
