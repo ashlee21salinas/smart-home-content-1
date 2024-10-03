@@ -56,7 +56,7 @@ h1 {
 
 p {
   font-size: 28px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif; */
 }
 
 #logo {
@@ -97,7 +97,7 @@ p {
   z-index: -1; /*place rectangle behind image*/
 }
 
-.feature-title {
+.feature-title { */
   font-family: "Playfair Display", serif;
 }
 
@@ -108,6 +108,10 @@ p {
 
 h2 {
   font-size: 53px;
+}
+
+h3 {
+  font-size: 50px;
 }
 
 .container-2 {
