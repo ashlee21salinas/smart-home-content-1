@@ -1,69 +1,135 @@
-
-/****************** Home Page ******************/
+/********************* Home Page *********************/
 header {
-    background-color: black;
+  background-color: black;
 }
 
 .big-img {
-background-image: url("Images/modernhouse.png");
-min-height: 700px;
-height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  background-image: url("Images/modernhouse.png");
+  min-height: 900px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .box {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .box-1 {
-    /* border: 2px solid red; */
-} 
+  /* border: 2px solid red; */
+}
 .home-title {
-    /* border: 2px solid red; */
+  /* border: 2px solid red; */
 }
 
 nav {
-    /* border: 2px solid red; */
+  /* border: 2px solid red; */
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    background-color: #455559;
-    margin: 10px;
-    width: 250px;
-    text-align: center;
-    font-size: 36px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #455559;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  font-size: 36px;
 }
 
 body {
-    background-color: #CCD8DF;
+  background-color: #ccd8df;
+  max-width: 1800px;
 }
 
 h1 {
-   font-size: 58px;
+  font-size: 58px;
+}
+
+p {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
 }
 
 #logo {
-height: 100px;
-margin: 0;
+  height: 100px;
+  margin: 0;
 }
 
 #main-image {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
+}
+/*******************Smart Home Features *******************/
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin: 200px 0px; /* margin: top&bottom left&right; */
 }
 
-.img-1 {
-    background-color: #687692;
+.text-1 {
+  max-width: 45%;
+  border: 2px solid red;
+}
+
+#img-rectangle {
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rectangle {
+  background-color: #687692;
+  width: 545px;
+  height: 710px;
+  position: absolute;
+  z-index: -1; /*place rectangle behind image*/
+}
+
+.feature-title {
+  font-family: "Playfair Display", serif;
+}
+
+/***************Front Yard ***************/
+.f-yard-title {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-size: 53px;
+}
+
+.container-2 {
+  display: flex; /*allows flexbox layout mode*/
+  justify-content: flex-start;
+  align-items: center;
+  margin: 200px 0px;
+  border: 2px solid red;
+}
+
+.text-2 {
+  text-align: left;
+  background-color: #5c7c89;
+  height: 819px;
+  margin-left: 0;
+  border: 2px solid red;
+}
+
+#img2 {
+  margin-right: 0;
+  margin-left: 3%;
+  border: 2px solid red;
+  width: 577px;
+  height: 819px;
 }
