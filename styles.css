@@ -31,7 +31,7 @@ header {
 }
 
 nav {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 nav a {
@@ -157,7 +157,7 @@ h4 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: #3d5a73;
   width: 1493px;
   height: 881px;
@@ -216,7 +216,7 @@ h4 {
 }
 
 .container-8 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -245,7 +245,7 @@ h4 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 1675px;
+  width: 1800px;
   height: 594px;
   background-color: #9cb2be;
 }
@@ -269,7 +269,7 @@ footer {
   background-color: #242424;
   color: white;
   padding: 20px 0;
-  width: 1675px;
+  width: 1800px;
   height: 420px;
   margin-top: 200px;
 }
@@ -282,14 +282,7 @@ footer {
   flex-direction: column;
 }
 
-.footer-nav a {
-  color: white;
-  background-color: #455559;
-  text-decoration: none;
-  font-size: 36px;
-  margin: 0 15px;
-  justify-content: center;
-}
+/* nav is at the top */
 
 .footer-info {
   display: flex;
@@ -309,4 +302,33 @@ footer {
 .contact h4 {
   font-size: 28px;
   margin-bottom: 10px;
+}
+
+/********************* Rooms Page *********************/
+
+.r-container {
+  border: 2px solid red;
+  background-color: #5C7C89;
+  height: 509px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/******************* Room Features *******************/
+
+.r-container-1 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.text-r1 {
+  background-color: #3d5a73;
+  margin-left: 5%;
+}
+
+.r-img1 {
+  display: flex;
+  margin-left: 5%;
 }
