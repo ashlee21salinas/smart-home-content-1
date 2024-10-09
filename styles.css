@@ -59,7 +59,7 @@ p {
   font-family: "Playfair Display", serif;
 }
 
-#logo {
+.logo {
   height: 100px;
   margin: 0;
 }
@@ -354,12 +354,12 @@ footer {
 
 /******************* Study *******************/
 
-.study-text {
+.main-features-text {
   margin-left: 3%;
   margin-right: 3%;
 }
 
-.r-feature-containers {
+.rtc-feature-containers {
   /* border: 2px solid red; */
   display: flex;
   justify-content: flex-start;
@@ -370,11 +370,13 @@ footer {
 }
 
 .images {
+  /* border: 2px solid blue; */
   width: 677px;
   height: 554px;
 }
 
-.r-feature-texts {
+.rtc-feature-texts {
+  /* border: 2px solid red; */
   text-align: left;
   margin: 5%;
 }
@@ -386,9 +388,13 @@ hr {
   margin: 3%;
 }
 
+.features-background {
+  background-color: #B8BECE;
+}
+
 /******************* Nursery *******************/
 
-.nursery-container {
+.rtc-container-2 {
   /* border: 2px solid red; */
   background-color: #687692;
   display: flex;
@@ -399,7 +405,7 @@ hr {
   margin-top: 200px;
 }
 
-.nursery-text {
+.text-rtc2 {
   margin-left: 5%;
   margin-right: 50%;
 }
@@ -409,6 +415,19 @@ hr {
   width: 645px;
   height: 716px;
   margin-top: -430px;
+  margin-left: 920px;
+  margin-bottom: 200px;
+}
+
+/******************* Technology Features *******************/
+
+/* Safety */
+
+.safety-cleaning-e-img {
+  display: flex;
+  width: 645px;
+  height: 600px;
+  margin-top: -420px;
   margin-left: 920px;
   margin-bottom: 200px;
 }
