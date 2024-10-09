@@ -319,7 +319,8 @@ footer {
 
 /******************* Room Features *******************/
 
-.r-container-1 {
+/* Rooms, Tech, & Conve. features */
+.rtc-container-1 {
   border: 2px solid red;
   display: flex;
   justify-content: center;
@@ -332,7 +333,7 @@ footer {
   margin-bottom: 200px;
 }
 
-.text-r1 {
+.text-rtc1 {
   /* border: 2px solid red; */
   display: flex;
   margin-left: 5%;
@@ -341,13 +342,14 @@ footer {
   padding-right: 500px;
 }
 
-.r-img1 {
-  /* border: 2px solid red; */
+.rtc-img1 {
+  border: 2px solid red;
   display: flex;
   width: 642px;
   height: 631px;
-  margin-top: -550px;
-  margin-left: 800px;
+  margin-top: -730px;
+  margin-left: 700px;
+  margin-bottom: 200px;
 }
 
 /******************* Study *******************/
@@ -365,10 +367,9 @@ footer {
   width: 1625px;
   height: 554px;
   margin-left: 3%;
-  
 }
 
-#images {
+.images {
   width: 677px;
   height: 554px;
 }
@@ -396,7 +397,6 @@ hr {
   width: 1676px;
   height: 488px;
   margin-top: 200px;
-  margin-bottom: 200px;
 }
 
 .nursery-text {
@@ -406,9 +406,9 @@ hr {
 
 .nursery-img {
   display: flex;
-  width: 640px;
-  height: 700px;
-  margin-top: -440px;
-  margin-left: 950px;
+  width: 645px;
+  height: 716px;
+  margin-top: -430px;
+  margin-left: 920px;
+  margin-bottom: 200px;
 }
-
