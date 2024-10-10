@@ -23,16 +23,16 @@ header {
   margin: 0;
 }
 
-.box-1 {
+/* .box-1 {
   border: 2px solid red;
-}
-.home-title {
+} */
+/* .home-title {
   border: 2px solid red;
-}
+} */
 
-nav {
+/* nav {
   border: 2px solid red;
-}
+} */
 
 nav a {
   color: white;
@@ -186,7 +186,7 @@ h4 {
 }
 
 .container-6 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -217,7 +217,7 @@ h4 {
 }
 
 .container-8 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -248,7 +248,7 @@ h4 {
   align-items: center;
   width: 1676px;
   height: 594px;
-  background-color: #9cb2be;
+  background-color: #5c7c89;
 }
 
 .text-6 {
@@ -321,7 +321,7 @@ footer {
 
 /* Rooms, Tech, & Conve. features */
 .rtc-container-1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -343,7 +343,7 @@ footer {
 }
 
 .rtc-img1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   width: 642px;
   height: 631px;
@@ -357,6 +357,7 @@ footer {
 .main-features-text {
   margin-left: 3%;
   margin-right: 3%;
+  margin-bottom: 70px;
 }
 
 .rtc-feature-containers {
@@ -386,10 +387,6 @@ hr {
   height: 5px;
   width: 1625px;
   margin: 3%;
-}
-
-.features-background {
-  background-color: #B8BECE;
 }
 
 /******************* Nursery *******************/
@@ -430,4 +427,17 @@ hr {
   margin-top: -420px;
   margin-left: 920px;
   margin-bottom: 200px;
+}
+
+/* ***********Rooms, Technology, Convenience*********** */
+
+.article-1-bg {
+  background-color: #b8bece;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.article-2-bg {
+  background-color: #b8bece;
+  padding-bottom: 80px;
 }
