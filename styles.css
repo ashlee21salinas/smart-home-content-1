@@ -30,9 +30,9 @@ img {
   /* border: 2px solid orange; */
 }
 
-/* .box-1 {
-  border: 2px solid red;
-} */
+.box-1 {
+  /* border: 2px solid red; */
+}
 /* .home-title {
   border: 2px solid red;
 } */
@@ -150,17 +150,19 @@ h4 {
   margin-left: 3%;
   /* border: 2px solid red; */
   width: 577px;
+  max-width: 50%;
   height: 819px;
 }
 
 .text-2 {
   text-align: left;
+  align-content: center;
   background-color: #5c7c89;
   height: 819px;
   margin-left: 0;
   padding-left: 5%;
   padding-right: 5%;
-  overflow: overlay;
+  overflow: auto;
   /* border: 2px solid red; */
 }
 
@@ -174,7 +176,7 @@ h4 {
   height: 881px;
   margin-left: 3%;
   margin-bottom: 200px;
-  overflow: overlay;
+  overflow: auto;
 }
 
 .text-3 {
@@ -207,6 +209,7 @@ h4 {
 
 #img4 {
   width: 740px;
+  max-width: 60%;
   height: 542px;
   margin-left: 3%;
   margin-right: 0;
@@ -215,12 +218,13 @@ h4 {
 
 .text-4 {
   text-align: left;
+  align-content: center;
   background-color: #687692;
   height: 542px;
   margin-left: 0;
   padding-left: 5%;
   padding-right: 5%;
-  overflow: overlay;
+  overflow: auto;
 }
 
 .d-entrance-container {
@@ -237,13 +241,12 @@ h4 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* width: 1493px; */
-  /* height: 515px; */
   margin: 200px 0px 200px 0%;
 }
 
 #img5 {
   width: 643px;
+  max-width: 50%;
   height: 515px;
   margin-left: 3%;
 }
@@ -251,10 +254,11 @@ h4 {
 .text-5 {
   /* border: 2px solid yellow; */
   text-align: left;
+  align-content: center;
   padding-left: 5%;
   padding-right: 5%;
   height: 515px;
-  overflow: overlay;
+  overflow: auto;
 }
 
 /***************Other Features ***************/
@@ -267,7 +271,7 @@ h4 {
   height: 594px;
   margin: 0;
   background-color: #5c7c89;
-  overflow: overlay;
+  overflow: auto;
 }
 
 .text-6 {
@@ -278,6 +282,7 @@ h4 {
 
 #img6 {
   width: 518px;
+  max-width: 50%;
   height: 438px;
   padding-right: 5%;
 }
@@ -296,12 +301,12 @@ footer {
 }
 
 .footer-container {
-  /* border: 2px solid red; */
+  /* border: 2px solid green; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
-  overflow: overlay;
+  overflow: auto;
 }
 
 /* nav is at the top */
@@ -341,40 +346,46 @@ footer {
 /******************* Room Features *******************/
 
 /* Rooms, Tech, & Conve. features */
+
 .rtc-container-1 {
+  background-color: #3d5a73;
   /* border: 2px solid red; */
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #3d5a73;
-  width: 1076px;
-  height: 581px;
+  width: 87%;
+  height: 500px;
   margin-left: 3%;
   margin-top: 200px;
   margin-bottom: 200px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text-rtc1 {
-  /* border: 2px solid red; */
-  display: flex;
-  margin-left: 5%;
-  text-align: left;
-  flex-direction: column;
-  padding-right: 500px;
+  /* border: 2px solid green; */
+  padding-left: 5%;
+  padding-right: 40%;
+  padding-top: 0;
+}
+
+.rtcF-h1 {
+  margin: 0;
+}
+.rtcF-p {
+  margin-bottom: 0;
 }
 
 .rtc-img1 {
-  /* border: 2px solid red; */
-  display: flex;
   width: 642px;
   height: 631px;
-  margin-top: -730px;
-  margin-left: 700px;
-  margin-bottom: 200px;
+  margin-top: -650px;
+  margin-left: 60%;
+  max-width: 36%;
+  display: flex;
 }
 
 /******************* Study *******************/
 
+/* rooms, tech, & convenience h3 text*/
 .main-features-text {
   margin-left: 3%;
   margin-right: 3%;
@@ -387,57 +398,30 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 3%;
 }
 
 .images {
   /* border: 2px solid blue; */
   width: 677px;
   height: 554px;
-  margin-left: 3%;
+  /* margin-left: 3%; */
+  margin-right: 3%;
 }
 
 .rtc-feature-texts {
   /* border: 2px solid green; */
   text-align: left;
-  margin: 5%;
-  /* margin-left: 5%; */
+  align-content: center;
   height: 554px;
-  overflow: overlay;
+  overflow: auto;
 }
 
 hr {
   background-color: #3d5a73;
   height: 5px;
-  width: 1630px;
-  margin: 3%;
-}
-
-/******************* Nursery *******************/
-
-.rtc-container-2 {
-  /* border: 2px solid red; */
-  background-color: #687692;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  /* width: 1676px; */
-  margin: 0;
-  height: 488px;
-  margin-top: 200px;
-}
-
-.text-rtc2 {
-  margin-left: 5%;
-  margin-right: 50%;
-}
-
-.nursery-img {
-  display: flex;
-  width: 645px;
-  height: 716px;
-  margin-top: -430px;
-  margin-left: 920px;
-  margin-bottom: 200px;
+  width: 93%;
+  margin: 3.5%;
 }
 
 /******************* Technology Features *******************/
@@ -448,8 +432,9 @@ hr {
   display: flex;
   width: 645px;
   height: 600px;
-  margin-top: -420px;
-  margin-left: 920px;
+  margin-top: -430px;
+  margin-left: 60%;
+  max-width: 36%;
   margin-bottom: 200px;
 }
 
@@ -459,9 +444,12 @@ hr {
   background-color: #b8bece;
   padding-top: 20px;
   padding-bottom: 80px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .article-2-bg {
   background-color: #b8bece;
   padding-bottom: 80px;
+  padding-top: 20px;
 }
