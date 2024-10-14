@@ -30,9 +30,9 @@ img {
   /* border: 2px solid orange; */
 }
 
-.box-1 {
-  /* border: 2px solid red; */
-}
+/* .box-1 {
+  border: 2px solid red;
+} */
 /* .home-title {
   border: 2px solid red;
 } */
@@ -40,6 +40,22 @@ img {
 /* nav {
   border: 2px solid red;
 } */
+
+body {
+  background-color: #ccd8df;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 100px;
+  margin: 0;
+}
+
+#main-image {
+  width: 100%;
+  margin: 0;
+}
 
 nav a {
   color: white;
@@ -53,14 +69,20 @@ nav a {
   /* border: 2px solid red; */
 }
 
-body {
-  background-color: #ccd8df;
-  max-width: 1800px;
-  margin: 0 auto;
+h1 {
+  font-size: 60px;
 }
 
-h1 {
-  font-size: 58px;
+h2 {
+  font-size: 53px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 28px;
 }
 
 p {
@@ -68,15 +90,6 @@ p {
   font-family: "Playfair Display", serif;
 }
 
-.logo {
-  height: 100px;
-  margin: 0;
-}
-
-#main-image {
-  width: 100%;
-  margin: 0;
-}
 /*******************Smart Home Features *******************/
 .home-feature-container {
   display: flex;
@@ -107,26 +120,7 @@ p {
   z-index: -1; /*place rectangle behind image*/
 }
 
-.feature-title {
-  font-family: "Playfair Display", serif;
-}
-
 /***************Front Yard ***************/
-.pathway-title {
-  font-family: "Playfair Display", serif;
-}
-
-h2 {
-  font-size: 53px;
-}
-
-h3 {
-  font-size: 50px;
-}
-
-h4 {
-  font-size: 28px;
-}
 
 .front-yard-container {
   display: flex;
@@ -145,7 +139,7 @@ h4 {
   /* border: 2px solid red; */
 }
 
-#img2 {
+#pathway-img {
   margin-right: 0;
   margin-left: 3%;
   /* border: 2px solid red; */
@@ -154,7 +148,7 @@ h4 {
   height: 819px;
 }
 
-.text-2 {
+#pathway-security-text {
   text-align: left;
   align-content: center;
   background-color: #5c7c89;
@@ -179,12 +173,12 @@ h4 {
   overflow: auto;
 }
 
-.text-3 {
+#mailbox-aesthetics-text {
   text-align: left;
   margin: 5%;
 }
 
-#img3 {
+#mailbox-img {
   width: 550px;
   height: 450px;
 }
@@ -207,7 +201,7 @@ h4 {
   margin: 20px 0px 0px 0px;
 }
 
-#img4 {
+#house-img4 {
   width: 740px;
   max-width: 60%;
   height: 542px;
@@ -216,7 +210,7 @@ h4 {
   /* border: 2px solid red; */
 }
 
-.text-4 {
+#architecture-text {
   text-align: left;
   align-content: center;
   background-color: #687692;
@@ -244,14 +238,14 @@ h4 {
   margin: 200px 0px 200px 0%;
 }
 
-#img5 {
+#entryway-img {
   width: 643px;
   max-width: 50%;
   height: 515px;
   margin-left: 3%;
 }
 
-.text-5 {
+#entryway-text {
   /* border: 2px solid yellow; */
   text-align: left;
   align-content: center;
@@ -274,17 +268,128 @@ h4 {
   overflow: auto;
 }
 
-.text-6 {
+#other-f-text {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-#img6 {
+#other-f-img {
   width: 518px;
   max-width: 50%;
   height: 438px;
   padding-right: 5%;
+}
+
+/******************* Rooms, Technology, & Convenience pages *******************/
+
+/* ***********Rooms, Technology, & Convenience articles*********** */
+
+.article-1-bg {
+  background-color: #b8bece;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.article-2-bg {
+  background-color: #b8bece;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+/* Romms, Technology, & Convenience page container with nav and home-title */
+.room-tech-conv-container {
+  /* border: 2px solid red; */
+  background-color: #5c7c89;
+  justify-content: flex-start;
+  height: 509px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*********** Room, Technology, & Convenience Features ***********/
+
+/* Rooms, Tech, & Conve. features */
+
+.room-tech-conv-container-1 {
+  background-color: #3d5a73;
+  /* border: 2px solid red; */
+  display: flex;
+  width: 87%;
+  height: 500px;
+  margin-left: 3%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-r-t-c-1 {
+  /* border: 2px solid green; */
+  padding-left: 5%;
+  padding-right: 40%;
+  padding-top: 0;
+}
+
+.rtcF-h1 {
+  margin: 0;
+}
+.rtcF-p {
+  margin-bottom: 0;
+}
+
+.r-t-c-img1 {
+  width: 642px;
+  height: 631px;
+  margin-top: -650px;
+  margin-left: 60%;
+  max-width: 36%;
+  display: flex;
+}
+
+/* Study, Nursery, Automated Tech, Safety, 
+Everyday Automation, & Cleaning Essentials texts*/
+
+.main-features-text {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 70px;
+  /* border: 2px solid blue; */
+}
+
+/**** features containers, images, & texts ****/
+.room-tech-conv-feature-ctrs {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3%;
+}
+
+.images {
+  /* border: 2px solid blue; */
+  width: 677px;
+  height: 554px;
+  /* margin-left: 3%; */
+  margin-right: 3%;
+}
+
+.rtc-feature-texts {
+  /* border: 2px solid green; */
+  text-align: left;
+  align-content: center;
+  height: 554px;
+  overflow: auto;
+}
+
+hr {
+  background-color: #3d5a73;
+  height: 5px;
+  width: 93%;
+  margin: 3.5%;
 }
 
 /***************Footer***************/
@@ -329,127 +434,4 @@ footer {
 .contact h4 {
   font-size: 28px;
   margin-bottom: 10px;
-}
-
-/********************* Rooms Page *********************/
-
-.r-container {
-  /* border: 2px solid red; */
-  background-color: #5c7c89;
-  justify-content: flex-start;
-  height: 509px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-/******************* Room Features *******************/
-
-/* Rooms, Tech, & Conve. features */
-
-.rtc-container-1 {
-  background-color: #3d5a73;
-  /* border: 2px solid red; */
-  display: flex;
-  width: 87%;
-  height: 500px;
-  margin-left: 3%;
-  margin-top: 200px;
-  margin-bottom: 200px;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.text-rtc1 {
-  /* border: 2px solid green; */
-  padding-left: 5%;
-  padding-right: 40%;
-  padding-top: 0;
-}
-
-.rtcF-h1 {
-  margin: 0;
-}
-.rtcF-p {
-  margin-bottom: 0;
-}
-
-.rtc-img1 {
-  width: 642px;
-  height: 631px;
-  margin-top: -650px;
-  margin-left: 60%;
-  max-width: 36%;
-  display: flex;
-}
-
-/******************* Study *******************/
-
-/* rooms, tech, & convenience h3 text*/
-.main-features-text {
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 70px;
-  /* border: 2px solid blue; */
-}
-
-.rtc-feature-containers {
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 3%;
-}
-
-.images {
-  /* border: 2px solid blue; */
-  width: 677px;
-  height: 554px;
-  /* margin-left: 3%; */
-  margin-right: 3%;
-}
-
-.rtc-feature-texts {
-  /* border: 2px solid green; */
-  text-align: left;
-  align-content: center;
-  height: 554px;
-  overflow: auto;
-}
-
-hr {
-  background-color: #3d5a73;
-  height: 5px;
-  width: 93%;
-  margin: 3.5%;
-}
-
-/******************* Technology Features *******************/
-
-/* Safety */
-
-.safety-cleaning-e-img {
-  display: flex;
-  width: 645px;
-  height: 600px;
-  margin-top: -430px;
-  margin-left: 60%;
-  max-width: 36%;
-  margin-bottom: 200px;
-}
-
-/* ***********Rooms, Technology, Convenience*********** */
-
-.article-1-bg {
-  background-color: #b8bece;
-  padding-top: 20px;
-  padding-bottom: 80px;
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-
-.article-2-bg {
-  background-color: #b8bece;
-  padding-bottom: 80px;
-  padding-top: 20px;
 }
